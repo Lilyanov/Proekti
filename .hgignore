@@ -1,0 +1,8 @@
+(^|/)target$
+(^|/)\.(project|classpath|settings)$
+^fitnesse/src/main/fitnesse/SkrillPlatform/PaymentsAndTransactions/(SuiteSetUp/)?content.txt$
+^fitnesse/src/main/fitnesse/(?!SkrillPlatform$)[^/]+$
+^fitnesse/src/main/fitnesse/.+\.zip$
+^fitnesse/fitnesse.jar$
+.metadata
+test-output
