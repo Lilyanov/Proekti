@@ -2,8 +2,6 @@ package com.skrill.interns.cart;
 
 import java.util.Map;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -13,10 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 public class Delete extends CherryServlet {
 
     private static final long serialVersionUID = -4556201665035076096L;
-
-    public void init(ServletConfig config) throws ServletException {
-        super.init(config);
-    }
 
     protected Cookie bakeCookie(ClientCart cart, int id) {
         cart.getItems().remove(id);
@@ -47,14 +41,7 @@ public class Delete extends CherryServlet {
             return;
         }
 
-        Item selectedItem = null;
-        // search for required item in dataBase
-        for (Item item : database) {
-            if (item.getId() == id) {
-                selectedItem = item;
-                break;
-            }
-        }
+        Item selectedItem = database.get(id);
         if (selectedItem == null) {
             String responseMessage = "Sorry, you don't have this item. Please choose something else.";
             respondToClient(response, responseMessage, 200);
@@ -91,7 +78,7 @@ public class Delete extends CherryServlet {
             return;
         }
 
-        String responseMessage = "Deleted item:\n" + encoder.viewItemAsXML(selectedItem);
+        String responseMessage = "Deleted item:\n" + "Id: " + id + "\n" + selectedItem.toString();
         respondToClient(response, responseMessage, 200);
     }
 }

@@ -1,7 +1,8 @@
 package com.skrill.interns.cart;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletException;
+import java.util.Iterator;
+import java.util.Map;
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,16 +11,19 @@ import javax.servlet.http.HttpServletResponse;
 public class View extends CherryServlet {
 
     private static final long serialVersionUID = 1L;
-    private static XmlEncoder encoder = new XmlEncoder();
-    private static ShopItems items = new ShopItems();
 
-    public void init(ServletConfig config) throws ServletException {
-        super.init(config);
-    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         StringBuilder responseMessage = new StringBuilder();
-        responseMessage.append(encoder.viewShopItemsAsXML(items));
+        Iterator<Map.Entry<Integer, Item>> entries = database.entrySet().iterator();
+        responseMessage.append("Items in the shop:\n");
+        while(entries.hasNext()) {
+        	 Map.Entry<Integer, Item> entry = entries.next();
+        	 int id = entry.getKey();
+        	 Item item = entry.getValue();
+        	 responseMessage.append("Id: ").append(id).append("\n")
+        	 				.append(item.toString()).append("\n");
+        }
 
         respondToClient(response, responseMessage.toString(), 200);
     }

@@ -2,8 +2,6 @@ package com.skrill.interns.cart;
 
 import java.util.Iterator;
 import java.util.Map;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -13,10 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 public class Read extends CherryServlet {
 
     private static final long serialVersionUID = 3126355397241435674L;
-
-    public void init(ServletConfig config) throws ServletException {
-        super.init(config);
-    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         Cookie[] cookies = request.getCookies();
@@ -46,9 +40,11 @@ public class Read extends CherryServlet {
                 shownCart.append("Items added in the cart:\n");
                 while (entries.hasNext()) {
                     Map.Entry<Integer, Integer> entry = entries.next();
-                    Item selectedItem = database.get(entry.getKey());
+                    int id = entry.getKey();
                     int quantity = entry.getValue();
-
+                    Item selectedItem = database.get(id);
+                    
+                    shownCart.append("Id: ").append(entry.getKey()).append("\n");
                     shownCart.append(selectedItem.toString());
                     shownCart.append("Quantity: ").append(quantity).append("\n\n");
                 }
