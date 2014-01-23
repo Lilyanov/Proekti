@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="293" started-at="2013-12-03T16:08:49Z" finished-at="2013-12-03T16:08:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="293" started-at="2013-12-03T16:08:49Z" finished-at="2013-12-03T16:08:49Z">
+      <class name="com.skrill.interns.calculator.ExpressionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="106" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_call_add_method_it_returns_total()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_call_add_method_it_returns_total" duration-ms="40" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_call_add_method_it_returns_total -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_call_devide_method_and_second_operand_is_0_it_returns_exceptions()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_call_devide_method_and_second_operand_is_0_it_returns_exceptions" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <exception class="java.lang.ArithmeticException">
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException
+	at com.skrill.interns.calculator.Expression.divide(Expression.java:102)
+	at com.skrill.interns.calculator.ExpressionTest.when_call_devide_method_and_second_operand_is_0_it_returns_exceptions(ExpressionTest.java:257)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_call_devide_method_and_second_operand_is_0_it_returns_exceptions -->
+        <test-method status="PASS" signature="when_call_devide_method_it_returns_quotient()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_call_devide_method_it_returns_quotient" duration-ms="2" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_call_devide_method_it_returns_quotient -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_call_mult_method_it_returns_multiplication()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_call_mult_method_it_returns_multiplication" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_call_mult_method_it_returns_multiplication -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_call_subtract_method_it_returns_subtraction()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_call_subtract_method_it_returns_subtraction" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_call_subtract_method_it_returns_subtraction -->
+        <test-method status="PASS" signature="when_have_expression_getOperand_returns_left_operand()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_have_expression_getOperand_returns_left_operand" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_have_expression_getOperand_returns_left_operand -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_selectOption_has_divide_operation()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_selectOption_has_divide_operation" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_selectOption_has_divide_operation -->
+        <test-method status="PASS" signature="when_selectOption_has_minus_operation()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_selectOption_has_minus_operation" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_selectOption_has_minus_operation -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_selectOption_has_mult_operation()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_selectOption_has_mult_operation" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_selectOption_has_mult_operation -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_selectOption_has_plus_operation()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_selectOption_has_plus_operation" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_selectOption_has_plus_operation -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_contain_different_symbols_than_numbers_and_operations_parse_throws_exception()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_contain_different_symbols_than_numbers_and_operations_parse_throws_exception" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Invalid input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Invalid input!
+	at com.skrill.interns.calculator.Expression.parse(Expression.java:20)
+	at com.skrill.interns.calculator.ExpressionTest.when_the_string_contain_different_symbols_than_numbers_and_operations_parse_throws_exception(ExpressionTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_contain_different_symbols_than_numbers_and_operations_parse_throws_exception -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_has_double_number_with_more_than_10_symbols_in_integer_part_parse_return_exception()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_has_double_number_with_more_than_10_symbols_in_integer_part_parse_return_exception" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Invalid input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Invalid input!
+	at com.skrill.interns.calculator.Expression.parse(Expression.java:20)
+	at com.skrill.interns.calculator.ExpressionTest.when_the_string_has_double_number_with_more_than_10_symbols_in_integer_part_parse_return_exception(ExpressionTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_has_double_number_with_more_than_10_symbols_in_integer_part_parse_return_exception -->
+        <test-method status="PASS" signature="when_the_string_has_double_number_with_more_than_20_symbols_in_fraction_parse_return_exception()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_has_double_number_with_more_than_20_symbols_in_fraction_parse_return_exception" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Invalid input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Invalid input!
+	at com.skrill.interns.calculator.Expression.parse(Expression.java:20)
+	at com.skrill.interns.calculator.ExpressionTest.when_the_string_has_double_number_with_more_than_20_symbols_in_fraction_parse_return_exception(ExpressionTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_has_double_number_with_more_than_20_symbols_in_fraction_parse_return_exception -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_is_correct_expression_calculate_calculated_it_test1()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_is_correct_expression_calculate_calculated_it_test1" duration-ms="5" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_is_correct_expression_calculate_calculated_it_test1 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_is_correct_expression_calculate_calculated_it_test2()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_is_correct_expression_calculate_calculated_it_test2" duration-ms="8" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_is_correct_expression_calculate_calculated_it_test2 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_is_correct_expression_calculate_calculated_it_test3()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_is_correct_expression_calculate_calculated_it_test3" duration-ms="7" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_is_correct_expression_calculate_calculated_it_test3 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_is_expression_with_only_one_number_parse_thorws_exception()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_is_expression_with_only_one_number_parse_thorws_exception" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Invalid input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Invalid input!
+	at com.skrill.interns.calculator.Expression.parse(Expression.java:20)
+	at com.skrill.interns.calculator.ExpressionTest.when_the_string_is_expression_with_only_one_number_parse_thorws_exception(ExpressionTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_is_expression_with_only_one_number_parse_thorws_exception -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_is_expression_with_two_zeros_parse_doesnt_throws_exception()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_is_expression_with_two_zeros_parse_doesnt_throws_exception" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_is_expression_with_two_zeros_parse_doesnt_throws_exception -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="setup" is-config="true" duration-ms="1" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="when_the_string_is_null_parse_throws_exception()[pri:0, instance:com.skrill.interns.calculator.ExpressionTest@5d5bdc50]" name="when_the_string_is_null_parse_throws_exception" duration-ms="0" started-at="2013-12-03T18:08:49Z" finished-at="2013-12-03T18:08:49Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Invalid input!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Invalid input!
+	at com.skrill.interns.calculator.Expression.parse(Expression.java:14)
+	at com.skrill.interns.calculator.ExpressionTest.when_the_string_is_null_parse_throws_exception(ExpressionTest.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when_the_string_is_null_parse_throws_exception -->
+      </class> <!-- com.skrill.interns.calculator.ExpressionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

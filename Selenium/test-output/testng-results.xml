@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11845" started-at="2013-12-10T12:04:21Z" finished-at="2013-12-10T12:04:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11845" started-at="2013-12-10T12:04:21Z" finished-at="2013-12-10T12:04:33Z">
+      <class name="com.skrill.interns.selenium.MyAccountTest">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.skrill.interns.selenium.MyAccountTest@5c07f4ec]" name="startTest" is-config="true" duration-ms="2991" started-at="2013-12-10T14:04:21Z" finished-at="2013-12-10T14:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="the_user_can_logIn_and_logOut()[pri:0, instance:com.skrill.interns.selenium.MyAccountTest@5c07f4ec]" name="the_user_can_logIn_and_logOut" duration-ms="8329" started-at="2013-12-10T14:04:24Z" finished-at="2013-12-10T14:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- the_user_can_logIn_and_logOut -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.skrill.interns.selenium.MyAccountTest@5c07f4ec]" name="endTest" is-config="true" duration-ms="519" started-at="2013-12-10T14:04:32Z" finished-at="2013-12-10T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.skrill.interns.selenium.MyAccountTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+Jira, wiki, Agile practice
+
+Eclipse + Maven
+
+Unix
+
+DVCS ( git + Hg )
+
+Java Design Patterns
+
+Unit testing
+
+Selenium
+
+Thread Programming
+
+Network Programming
+
+HTTP, Structured Data
+
+SOA + SOAP + RESTful
